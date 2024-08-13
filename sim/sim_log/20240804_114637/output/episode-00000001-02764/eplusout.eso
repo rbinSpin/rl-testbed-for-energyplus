@@ -1,0 +1,103 @@
+Program Version,EnergyPlus, Version 22.2.0-Unknown (No OpenGL), YMD=2024.08.04 11:46
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Report Variables Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Report Variables Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Report Variables Requested
+6,1,Calendar Year of Simulation[] ! When Annual Report Variables Requested
+7,1,Environment,Site Outdoor Air Drybulb Temperature [C] !TimeStep
+266,1,WESTDATACENTER_EQUIP,ITE CPU Electricity Rate [W] !Hourly
+267,1,WESTDATACENTER_EQUIP,ITE Fan Electricity Rate [W] !Hourly
+268,1,WESTDATACENTER_EQUIP,ITE UPS Electricity Rate [W] !Hourly
+269,1,WESTDATACENTER_EQUIP,ITE CPU Electricity Rate at Design Inlet Conditions [W] !Hourly
+270,1,WESTDATACENTER_EQUIP,ITE Fan Electricity Rate at Design Inlet Conditions [W] !Hourly
+271,1,WESTDATACENTER_EQUIP,ITE UPS Heat Gain to Zone Rate [W] !Hourly
+272,1,WESTDATACENTER_EQUIP,ITE Total Heat Gain to Zone Rate [W] !Hourly
+384,1,WESTDATACENTER_EQUIP,ITE Standard Density Air Volume Flow Rate [m3/s] !Hourly
+385,1,WESTDATACENTER_EQUIP,ITE Air Inlet Dry-Bulb Temperature [C] !Hourly
+386,1,WESTDATACENTER_EQUIP,ITE Air Inlet Dewpoint Temperature [C] !Hourly
+387,1,WESTDATACENTER_EQUIP,ITE Air Inlet Relative Humidity [%] !Hourly
+388,1,WESTDATACENTER_EQUIP,ITE Air Outlet Dry-Bulb Temperature [C] !Hourly
+389,1,WESTDATACENTER_EQUIP,ITE Supply Heat Index [] !Hourly
+390,1,WESTDATACENTER_EQUIP,ITE Air Inlet Operating Range Exceeded Time [hr] !Hourly
+391,1,WESTDATACENTER_EQUIP,ITE Air Inlet Dry-Bulb Temperature Above Operating Range Time [hr] !Hourly
+392,1,WESTDATACENTER_EQUIP,ITE Air Inlet Dry-Bulb Temperature Below Operating Range Time [hr] !Hourly
+393,1,WESTDATACENTER_EQUIP,ITE Air Inlet Dewpoint Temperature Above Operating Range Time [hr] !Hourly
+394,1,WESTDATACENTER_EQUIP,ITE Air Inlet Dewpoint Temperature Below Operating Range Time [hr] !Hourly
+395,1,WESTDATACENTER_EQUIP,ITE Air Inlet Relative Humidity Above Operating Range Time [hr] !Hourly
+396,1,WESTDATACENTER_EQUIP,ITE Air Inlet Relative Humidity Below Operating Range Time [hr] !Hourly
+397,1,WESTDATACENTER_EQUIP,ITE Air Inlet Dry-Bulb Temperature Difference Above Operating Range [deltaC] !Hourly
+398,1,WESTDATACENTER_EQUIP,ITE Air Inlet Dry-Bulb Temperature Difference Below Operating Range [deltaC] !Hourly
+399,1,WESTDATACENTER_EQUIP,ITE Air Inlet Dewpoint Temperature Difference Above Operating Range [deltaC] !Hourly
+400,1,WESTDATACENTER_EQUIP,ITE Air Inlet Dewpoint Temperature Difference Below Operating Range [deltaC] !Hourly
+401,1,WESTDATACENTER_EQUIP,ITE Air Inlet Relative Humidity Difference Above Operating Range [%] !Hourly
+402,1,WESTDATACENTER_EQUIP,ITE Air Inlet Relative Humidity Difference Below Operating Range [%] !Hourly
+403,1,EASTDATACENTER_EQUIP,ITE CPU Electricity Rate [W] !Hourly
+404,1,EASTDATACENTER_EQUIP,ITE Fan Electricity Rate [W] !Hourly
+405,1,EASTDATACENTER_EQUIP,ITE UPS Electricity Rate [W] !Hourly
+406,1,EASTDATACENTER_EQUIP,ITE CPU Electricity Rate at Design Inlet Conditions [W] !Hourly
+407,1,EASTDATACENTER_EQUIP,ITE Fan Electricity Rate at Design Inlet Conditions [W] !Hourly
+408,1,EASTDATACENTER_EQUIP,ITE UPS Heat Gain to Zone Rate [W] !Hourly
+409,1,EASTDATACENTER_EQUIP,ITE Total Heat Gain to Zone Rate [W] !Hourly
+449,1,EASTDATACENTER_EQUIP,ITE Standard Density Air Volume Flow Rate [m3/s] !Hourly
+450,1,EASTDATACENTER_EQUIP,ITE Air Inlet Dry-Bulb Temperature [C] !Hourly
+451,1,EASTDATACENTER_EQUIP,ITE Air Inlet Dewpoint Temperature [C] !Hourly
+452,1,EASTDATACENTER_EQUIP,ITE Air Inlet Relative Humidity [%] !Hourly
+453,1,EASTDATACENTER_EQUIP,ITE Air Outlet Dry-Bulb Temperature [C] !Hourly
+454,1,EASTDATACENTER_EQUIP,ITE Supply Heat Index [] !Hourly
+455,1,EASTDATACENTER_EQUIP,ITE Air Inlet Operating Range Exceeded Time [hr] !Hourly
+456,1,EASTDATACENTER_EQUIP,ITE Air Inlet Dry-Bulb Temperature Above Operating Range Time [hr] !Hourly
+457,1,EASTDATACENTER_EQUIP,ITE Air Inlet Dry-Bulb Temperature Below Operating Range Time [hr] !Hourly
+458,1,EASTDATACENTER_EQUIP,ITE Air Inlet Dewpoint Temperature Above Operating Range Time [hr] !Hourly
+459,1,EASTDATACENTER_EQUIP,ITE Air Inlet Dewpoint Temperature Below Operating Range Time [hr] !Hourly
+460,1,EASTDATACENTER_EQUIP,ITE Air Inlet Relative Humidity Above Operating Range Time [hr] !Hourly
+461,1,EASTDATACENTER_EQUIP,ITE Air Inlet Relative Humidity Below Operating Range Time [hr] !Hourly
+462,1,EASTDATACENTER_EQUIP,ITE Air Inlet Dry-Bulb Temperature Difference Above Operating Range [deltaC] !Hourly
+463,1,EASTDATACENTER_EQUIP,ITE Air Inlet Dry-Bulb Temperature Difference Below Operating Range [deltaC] !Hourly
+464,1,EASTDATACENTER_EQUIP,ITE Air Inlet Dewpoint Temperature Difference Above Operating Range [deltaC] !Hourly
+465,1,EASTDATACENTER_EQUIP,ITE Air Inlet Dewpoint Temperature Difference Below Operating Range [deltaC] !Hourly
+466,1,EASTDATACENTER_EQUIP,ITE Air Inlet Relative Humidity Difference Above Operating Range [%] !Hourly
+467,1,EASTDATACENTER_EQUIP,ITE Air Inlet Relative Humidity Difference Below Operating Range [%] !Hourly
+468,1,WEST ZONE,Zone ITE CPU Electricity Rate [W] !Hourly
+469,1,WEST ZONE,Zone ITE Fan Electricity Rate [W] !Hourly
+470,1,WEST ZONE,Zone ITE UPS Electricity Rate [W] !Hourly
+471,1,WEST ZONE,Zone ITE CPU Electricity Rate at Design Inlet Conditions [W] !Hourly
+472,1,WEST ZONE,Zone ITE Fan Electricity Rate at Design Inlet Conditions [W] !Hourly
+473,1,WEST ZONE,Zone ITE UPS Heat Gain to Zone Rate [W] !Hourly
+474,1,WEST ZONE,Zone ITE Total Heat Gain to Zone Rate [W] !Hourly
+475,1,EAST ZONE,Zone ITE CPU Electricity Rate [W] !Hourly
+476,1,EAST ZONE,Zone ITE Fan Electricity Rate [W] !Hourly
+477,1,EAST ZONE,Zone ITE UPS Electricity Rate [W] !Hourly
+478,1,EAST ZONE,Zone ITE CPU Electricity Rate at Design Inlet Conditions [W] !Hourly
+479,1,EAST ZONE,Zone ITE Fan Electricity Rate at Design Inlet Conditions [W] !Hourly
+480,1,EAST ZONE,Zone ITE UPS Heat Gain to Zone Rate [W] !Hourly
+481,1,EAST ZONE,Zone ITE Total Heat Gain to Zone Rate [W] !Hourly
+482,1,EMS,Power Utilization Effectiveness [] !TimeStep
+621,1,WEST ZONE,Zone Air Temperature [C] !TimeStep
+622,1,WEST ZONE,Zone Air Relative Humidity [%] !TimeStep
+623,1,WEST ZONE,Zone Thermostat Control Type [] !Hourly
+624,1,WEST ZONE,Zone Thermostat Heating Setpoint Temperature [C] !Hourly
+625,1,WEST ZONE,Zone Thermostat Cooling Setpoint Temperature [C] !Hourly
+688,1,EAST ZONE,Zone Air Temperature [C] !TimeStep
+689,1,EAST ZONE,Zone Air Relative Humidity [%] !TimeStep
+690,1,EAST ZONE,Zone Thermostat Control Type [] !Hourly
+691,1,EAST ZONE,Zone Thermostat Heating Setpoint Temperature [C] !Hourly
+692,1,EAST ZONE,Zone Thermostat Cooling Setpoint Temperature [C] !Hourly
+755,1,WEST PLENUM,Zone Thermostat Control Type [] !Hourly
+756,1,WEST PLENUM,Zone Thermostat Heating Setpoint Temperature [C] !Hourly
+757,1,WEST PLENUM,Zone Thermostat Cooling Setpoint Temperature [C] !Hourly
+820,1,EAST PLENUM,Zone Thermostat Control Type [] !Hourly
+821,1,EAST PLENUM,Zone Thermostat Heating Setpoint Temperature [C] !Hourly
+822,1,EAST PLENUM,Zone Thermostat Cooling Setpoint Temperature [C] !Hourly
+970,1,Whole Building,Facility Total Building Electricity Demand Rate [W] !Hourly
+971,1,Whole Building,Facility Total HVAC Electricity Demand Rate [W] !Hourly
+972,1,Whole Building,Facility Total Electricity Demand Rate [W] !Hourly
+973,1,WEST ZONE,Zone Oscillating Temperatures Time [hr] !Hourly
+974,1,EAST ZONE,Zone Oscillating Temperatures Time [hr] !Hourly
+975,1,WEST PLENUM,Zone Oscillating Temperatures Time [hr] !Hourly
+976,1,EAST PLENUM,Zone Oscillating Temperatures Time [hr] !Hourly
+977,1,Facility,Facility Any Zone Oscillating Temperatures Time [hr] !Hourly
+978,1,WEST ZONE,Zone Heating Setpoint Not Met Time [hr] !Hourly
+979,1,WEST ZONE,Zone Heating Setpoint Not Met While Occupied Time [hr] !Hourly
+980,1,WEST ZONE,Zone Cooling Setpoint Not Met Time [hr] !Hourly
+981,1,WEST ZONE,Zone Cooling Setpoint Not Met While Occupied Time [hr] !Hourly

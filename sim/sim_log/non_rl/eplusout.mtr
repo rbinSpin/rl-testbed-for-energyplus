@@ -1,0 +1,21 @@
+Program Version,EnergyPlus, Version 22.2.0-Unknown (No OpenGL), YMD=2024.08.02 16:52
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Meters Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Meters Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Meters Requested
+6,1,Calendar Year of Simulation[] ! When Annual Meters Requested
+14,9,Electricity:Facility [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+1075,9,Electricity:HVAC [J] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+16,11,Electricity:Facility [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+1077,11,Electricity:HVAC [J] !RunPeriod [Value,Min,Month,Day,Hour,Minute,Max,Month,Day,Hour,Minute]
+End of Data Dictionary
+1,JUNEFIRST,  37.62,-122.40,  -8.00,   2.00
+4,1, 6
+14,19752971737.193783,168919809.4174794, 1, 1,15,239568337.49013588, 1, 9,15
+1075,1219948214.5523014,9103369.836945495, 1, 1,30,21251342.941651516, 1,15,15
+5,1
+16,19752971737.193783,168919809.4174794, 6, 1, 1,15,239568337.49013588, 6, 1, 9,15
+1077,1219948214.5523014,9103369.836945495, 6, 1, 1,30,21251342.941651516, 6, 1,15,15
+End of Data
+ Number of Records Written=           4
